@@ -1,0 +1,7 @@
+setcpm(98)
+$: s("9000_hh*2").gain(.05).vib(4).vibmod("<.25 .5 1 .5 2>")
+
+$: s("bongo:3").struct("1 1 0 0 1 1 0 0").slow(2).gain(3)
+$: s("bossdr110_bd").struct("<1 0> <0 1> <0 1> <1 0>").slow(2)
+$: s("simmonssds5_sd").struct("<0 1> <0 1> <1 1> <0 1>").gain(.1)
+$: s("sequentialcircuitsdrumtracks_sd").struct("0 1 0 1").slow(4).gain(.7)
