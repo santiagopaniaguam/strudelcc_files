@@ -1,0 +1,15 @@
+setcpm(94)
+
+//Main Melody 1
+
+// $: n("1 2 3 0 [2 - 6 7] 5 6 3").slow(2).scale("C#:minor").sound("gm_lead_4_chiff")
+
+//Main Melody 1
+
+// $: n("1 2 3 0 [<2 6> <7 4>] 5 6 3").slow(2).scale("C#:minor").sound("psaltery_pluck").dec(.3).rel(.2).room(1).gain(.7)
+
+// Resting melody
+
+$: n("1 2 3 0 [2 0 6 7] 5 6 3").slow(2).scale("C#:minor").sound("piano1").rel(.2)
+
+$: n("1 0 3 0 [2 0 6 0] 0 2 0").slow(4).scale("C#:minor").sound("gm_vibraphone").rel(.2) 
